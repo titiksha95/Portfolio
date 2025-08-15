@@ -1,0 +1,68 @@
+/* Gradient Text */
+.text-gradient {
+  background: linear-gradient(90deg, #ff7eb3, #ff758c, #ffb199);
+  background-clip: text; /* standard property */
+  -webkit-background-clip: text; /* for Safari and Chrome */
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* fallback */
+}
+
+/* Gradient Button */
+.btn-gradient {
+  background: linear-gradient(90deg, #ff758c, #ff7eb3);
+  color: white;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+.btn-gradient:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: #12111a !important; /* your brand purple */
+}
+
+/* Glass Effect */
+.glass-nav, .glass-form, .glass-list {
+  background: rgba(30, 178, 188, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(120deg, #2c3e50, #4ca1af);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Cards */
+.skill-card, .project-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-card:hover, .project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Project Images */
+.project-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Section Background Alternate */
+.section-bg {
+  background-color: #f8f9fa;
+}
+
+/* Navbar Hover */
+.nav-hover:hover {
+  color: #ff7eb3 !important;
+}
+
