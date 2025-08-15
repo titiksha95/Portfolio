@@ -98,7 +98,7 @@ export default function App() {
           </p>
           <div>
             <a
-              href="src/assets/resume.pdf"
+              href="public/resume.pdf"
               className="btn btn-gradient me-2"
               target="_blank"
               rel="noopener noreferrer"
@@ -193,21 +193,21 @@ export default function App() {
                 desc: "A computer vision system for matching and verifying images with high precision.",
                 tech: "React.js, Node.js, MongoDB, SQL",
                 link: "https://github.com/titiksha95/cart-catalyst-engine.git",
-                img: "src/assets/image1.png",
+                img: "public/image1.png",
               },
               {
                 name: "AI-Powered Face Emotion Recognition",
                 desc: "Real-time CNN-based emotion classification.",
                 tech: "Python, TensorFlow, OpenCV",
                 link: "https://github.com/titiksha95/Face-sentiment-analysis.git",
-                img: "src/assets/image2.jpg",
+                img: "public/image2.jpg",
               },
               {
                 name: "Image Matcher",
                 desc: "Plant disease detection system with 92% accuracy.",
                 tech: "Python, OpenCV, TensorFlow, ROS",
                 link: "https://github.com/titiksha95/Face-Image-Matcher.git",
-                img: "src/assets/image3.jpg",
+                img: "public/image3.jpg",
               },
             ].map((proj, idx) => (
               <div className="col-md-4 mb-4" key={idx}>
